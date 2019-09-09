@@ -1,3 +1,6 @@
+/* Program to count the no of positive and negative numbers*/ 
+
+
 #include< stdio.h > 
 
 void main( ) 
