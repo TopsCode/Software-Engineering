@@ -41,6 +41,46 @@ return 0;
 
 }
 
+void push(int val)
+{
+	if(stacktop<maxsize)
+		stack[stacktop++]=val;
+	else
+		printf("Stack Overflow");
+}
+
+int pop()
+{
+	int a;
+if(stacktop>0)
+{
+stacktop--;
+a=stack[stacktop];
+return a;
+}
+else
+{
+printf("Stack is Empty");
+return -1;
+}
+}
+
+void display()
+{
+int i=0;
+if(stacktop>0)
+{
+	printf("\tElements are:");
+	while(i<stacktop)
+	{
+		printf("\t%d",stack[i++]);
+	}
+	printf("\n");
+}
+else
+	printf("\tStack is Empty\n");
+
+}
 
 
 
