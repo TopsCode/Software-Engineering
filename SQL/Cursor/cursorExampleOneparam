@@ -1,3 +1,6 @@
-CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)ASSELECT * FROM Customers WHERE City = @CityGO;
+CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
+  AS
+    SELECT * FROM Customers WHERE City = @City
+  GO;
 
 EXEC SelectAllCustomers City = "London";
