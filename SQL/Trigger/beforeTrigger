@@ -1,0 +1,6 @@
+create trigger stud_marks 
+before INSERT 
+on 
+Student 
+for each row 
+set new.total = new.subj1 + new.subj2 + new.subj3, new.per = new.total * 60 / 100;
