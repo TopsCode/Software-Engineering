@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+li p{ 
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li> <p> Apple </p> </li>
+  <li> Banana</li>
+</ul>
+
+</body>
+</html>
