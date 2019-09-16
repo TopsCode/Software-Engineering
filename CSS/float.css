@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+</style>
+</head>
+<body>
+
+<p><span>T</span>his is some text.
+This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<p>In the paragraph above, the first letter of the text is embedded in a span element. The span element has a width that is 0.7 times the size of the current font. The font-size of the span element is 400% (quite large) and the line-height is 80%. The font of the letter in the span will be in "Algerian".</p>
+
+</body>
+</html>
